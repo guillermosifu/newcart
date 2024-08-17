@@ -16,7 +16,7 @@ const ProductList = () => {
         {products.map(product=>(
             <li key={product.id}>
               <span>{product.name}-${product.price}</span>
-              <button onClick={addToCart(product)}>Agregar al carro</button>
+              <button onClick={()=>addToCart(product)}>Agregar al carro</button>
             </li>
         ))}
       </ul>

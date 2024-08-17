@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import { useCart } from './CartContext'
 
 import './App.css'
